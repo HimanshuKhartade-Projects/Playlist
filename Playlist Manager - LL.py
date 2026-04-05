@@ -85,7 +85,7 @@ class Playlist:
                         self.head = None
                         self.tail = None
                     elif temp == self.head:
-                        self.head = temp.next 
+                        self.head = temp.next
                         self.head.prev = None
                     elif temp == self.tail:
                         self.tail = temp.prev
